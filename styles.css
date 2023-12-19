@@ -1,0 +1,19 @@
+body { background-color: aquamarine;}
+img{
+  height: 300px;
+}
+.bob{
+  color: rgb(255, 0, 0);
+}
+#nob{
+  font-family:  Cochin, Times, 'Times New Roman', serif;
+}
+li{
+  list-style:georgian;
+  margin: 5px;
+}
+button{
+  background-color: blueviolet;
+color: aqua;
+border-radius: 10px;
+}
