@@ -5,5 +5,9 @@ handleSubmitform();
 });
 
 export function handleSubmitform() {
-    console.log('test')
+const question1= document.querySelector(
+    'input [name= "question"]:checked'
+    ).value;
+    console.log(question1)
+
 }
