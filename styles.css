@@ -24,6 +24,6 @@ h2{
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chiapas_Rainforest_crop.jpg/1200px-Chiapas_Rainforest_crop.jpg);
 
 background-clip: text;
--webkit-text-fill-color: transperint;
+-webkit-text-fill-color: transparent
 background-position: center;
 }
