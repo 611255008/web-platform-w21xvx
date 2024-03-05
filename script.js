@@ -6,9 +6,9 @@ handleSubmitform();
 
 export function handleSubmitform() {
 const question1= document.querySelector(
-    'input [name= "question"]:checked'
+    'input[name= "question1"]:checked'
     ).value;
-    
+
     if(question1 === "T-rex") {
         console.log("You Got It Right")
     }
