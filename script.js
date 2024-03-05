@@ -8,6 +8,13 @@ export function handleSubmitform() {
 const question1= document.querySelector(
     'input [name= "question"]:checked'
     ).value;
-    console.log(question1)
-
+    
+    if(question1 === "T-rex") {
+        console.log("You Got It Right")
+    }
+    else {
+        console.log("Sorry, try again.")
+    }
 }
+
+    
