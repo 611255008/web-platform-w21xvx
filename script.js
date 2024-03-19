@@ -11,6 +11,7 @@ const question1= document.querySelector(
 
     if(question1 === "T-rex") {
         console.log("You Got It Right")
+        soreTxt.innerHTML = "That is correct!"
     }
     else {
         console.log("Sorry, try again.")
