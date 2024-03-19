@@ -9,6 +9,8 @@ const question1= document.querySelector(
     'input[name="question1"]:checked'
     ).value;
 
+    const soreTxt = document.getElementById("score")
+
     if(question1 === "T-rex") {
         console.log("You Got It Right")
         soreTxt.innerHTML = "That is correct!"
