@@ -5,9 +5,7 @@ handleSubmitform();
 });
 
 export function handleSubmitform() {
-const question1= document.querySelector(
-    'input[name="question1"]:checked'
-    ).value;
+const question1= document.querySelector('input[name="question1"]:checked').value;
 
     const soreTxt = document.getElementById("score")
 
