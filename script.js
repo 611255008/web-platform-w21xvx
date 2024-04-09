@@ -5,16 +5,27 @@ handleSubmitform();
 });
 
 export function handleSubmitform() {
-const question1= document.querySelector('input[name="Question"]:checked').value;
+const question1= document.querySelector('input[name="a"]:checked').value;
 
     const soreTxt = document.getElementById("score")
 
     if(question1 === "T-rex") {
         console.log("You Got It Right")
-        soreTxt.innerHTML = "That is correct!"
+        soreTxt.innerHTML = "Q1 correct!"
     }
     else {
-        console.log("Sorry, try again.")
+        console.log("Q1 incorect")
+    }
+    const question1= document.querySelector('input[name="b"]:checked').value;
+
+    const soreTxt = document.getElementById("score")
+
+    if(question1 === "T-rex") {
+        console.log("You Got It Right")
+        soreTxt.innerHTML = "Q2 correct!"
+    }
+    else {
+        console.log("Q2 incorect")
     }
 }
 
