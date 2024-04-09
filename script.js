@@ -16,13 +16,13 @@ const question1= document.querySelector('input[name="a"]:checked').value;
     else {
         console.log("Q1 incorect")
     }
-    const question1= document.querySelector('input[name="b"]:checked').value;
+    const question2= document.querySelector('input[name="b"]:checked').value;
 
-    const soreTxt = document.getElementById("score")
+    const soreTxt2 = document.getElementById("score")
 
     if(question1 === "800") {
         console.log("You Got It Right")
-        soreTxt.innerHTML = "Q2 correct!"
+        soreTxt2.innerHTML = "Q2 correct!"
     }
     else {
         console.log("Q2 incorect")
