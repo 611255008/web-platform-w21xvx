@@ -22,7 +22,7 @@ const question1= document.querySelector('input[name="a"]:checked').value;
 
     if(question2 === "800") {
         console.log("You Got It Right")
-        soreTxt2.innerHTML = "Q2 correct!"
+        soreTxt2.innerHTML = ("Q2 correct!")
     }
     else {
         console.log("Q2 incorect")
