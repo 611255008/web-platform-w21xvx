@@ -1,4 +1,4 @@
-console.log('Hello!');
+
 const button = document.getElementById('button');
 button.addEventListener('click', () => {
 handleSubmitform();
