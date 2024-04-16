@@ -6,6 +6,8 @@ handleSubmitform();
 
 export function handleSubmitform() {
 const question1= document.querySelector('input[name="a"]:checked').value;
+const question2= document.querySelector('input[name="b"]:checked').value;
+
 
     const soreTxt = document.getElementById("score")
 
@@ -16,7 +18,6 @@ const question1= document.querySelector('input[name="a"]:checked').value;
     else {
         console.log("Q1 incorect")
     }
-    const question2= document.querySelector('input[name="b"]:checked').value;
 
     const soreTxt2 = document.getElementById("score")
 
