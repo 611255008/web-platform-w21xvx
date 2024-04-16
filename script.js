@@ -11,7 +11,7 @@ const question1= document.querySelector('input[name="a"]:checked').value;
 
     if(question1 === "T-rex") {
         console.log("You Got It Right")
-        soreTxt.innerHTML = "Q1 correct!"
+        soreTxt.innerHTML = ("Q1 correct!")
     }
     else {
         console.log("Q1 incorect")
