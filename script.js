@@ -10,7 +10,7 @@ const question2= document.querySelector('input[name="b"]:checked').value;
 
 
     const soreTxt = document.getElementById("score")
-    const scoreTxt2 = document.getElementById("score2")
+    const soreTxt2 = document.getElementById("score2")
 
     if(question1 === "T-rex") {
         console.log("You Got It Right")
@@ -24,7 +24,6 @@ const question2= document.querySelector('input[name="b"]:checked').value;
         soreTxt2.innerHTML = ("Q2 correct!")
     }
 
-    const soreTxt2 = document.getElementById("score")
 
     // if() {
     //     console.log("You Got It Right")
