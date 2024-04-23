@@ -21,7 +21,7 @@ const question2= document.querySelector('input[name="b"]:checked').value;
     }
     if(question2==="800") {
         console.log("You Got It Right")
-        soreTxt.innerHTML = ("Q2 correct!")
+        soreTxt2.innerHTML = ("Q2 correct!")
     }
 
     const soreTxt2 = document.getElementById("score")
